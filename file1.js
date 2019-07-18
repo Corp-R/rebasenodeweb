@@ -9,3 +9,7 @@ function calculateAirfare(baseFare) {
     fare *= (1 + federalTransportTax);
     return fare;
 }
+
+function two(){
+    var test = 'hi';
+}

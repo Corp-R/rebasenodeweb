@@ -7,6 +7,7 @@ function calculateAirfare(baseFare) {
     var fare = baseFare;       
     fare +=customsFee;
     fare += immigrationFee;
+    fare +=10;
     fare *= (1 + federalTransportTax);
     return fare;
 }
